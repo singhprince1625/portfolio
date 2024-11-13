@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Analyst Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="profile">
+                <img src="assets/image.jpg" alt="Profile Picture">
+                <h1>John Doe</h1>
+                <p>Data Analyst | Data Visualization Expert | Python Enthusiast</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hi, I'm Prince Kumar, a passionate Data Analyst with experience in data visualization, machine learning, and statistical analysis. I love turning raw data into actionable insights and telling stories through data.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project">
+                <h3>Project 1: Sales Data Analysis</h3>
+                <p>This project involves analyzing sales data to identify trends, anomalies, and predictive insights. The data is visualized using interactive graphs.</p>
+                <canvas id="salesChart"></canvas>
+            </div>
+            <div class="project">
+                <h3>Project 2: Customer Segmentation</h3>
+                <p>Using clustering techniques, I segmented customers into distinct groups for targeted marketing strategies.</p>
+                <canvas id="customerChart"></canvas>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>Data Analysis (Python, R)</li>
+                <li>Data Visualization (Matplotlib, Seaborn, Tableau)</li>
+                <li>Machine Learning (Scikit-learn, TensorFlow)</li>
+                <li>SQL, Excel, and Data Wrangling</li>
+                <li>Statistical Analysis and A/B Testing</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>If you're interested in collaborating or want to know more about my work, feel free to reach out!</p>
+            <form action="mailto:singhprince73700@gmail.com" method="get">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 John Doe. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
